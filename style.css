@@ -4,7 +4,7 @@ html{
 }
 
 body{
-
+    text-align: center; /*aggiunto*/
     background-image: url("https://c4.wallpaperflare.com/wallpaper/336/163/715/honeycombs-abstract-minimalism-simple-background-wallpaper-preview.jpg");
     background-size: cover;
     color: white;
@@ -14,62 +14,51 @@ body{
     margin-left: 14px;
 }
 
-.full_box{
-    justify-content: center;
-    height: 540px;
-}
-
-.linea{
-    margin-left: 0px;
-    height: 1px;
-    border: none;
-    background-color:#000000;
-    color: #000000;
-}
-
-
-.barre{
-    margin-left: 37%;
-    font-weight: bold;
-    align-items: center;
-    justify-content: center;
-    
-}
-
-.testo{
-    font-style: italic;
-    font-weight: bold;
-    font-size: 22px;
-}
-
-.robe{
-    font-style: italic;
-    font-weight: bold;
-    font-size: 18px;
-}
-.titolo2{
-    margin-left: 104px;
-    justify-content: center;
-    font-style: italic;
-    font-weight: bold;
-    font-size: 25px; 
-}
-
-.pulsante {
-    margin-top: 5%;
-    margin-left: 14%;
-    align-items: center;
-    justify-content: center;
-    color: black;
-}
-
-section{
+section {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    min-height: 100vh;
-}
-
-
-
+    height: 100%;
+    font-weight: bold;
+  }
+  
+  .full_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 540px;
+  }
+  
+  .testo {
+    text-align: center;
+  }
+  
+  .istruzioni {
+    margin: 0;
+  }
+  
+  .linea {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .barre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .pulsante {
+    margin-top: 20px;
+  }
+  
+  .risultato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
