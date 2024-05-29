@@ -217,8 +217,8 @@
                         giorniv = giorni - 2;}                     
                     if((giorno==1)&&(mese==6)){                     
                         giorniv = giorni - 2;}  
-                    if((giorno==3)&&(mese==6)){                     
-                        giorniv = giorni - 1;}    
+                    //if((giorno==3)&&(mese==6)){                     
+                      //  giorniv = giorni - 1;}    
                     if((giorno>=4 && giorno<=8)&&(mese==6)){      
                         giorniv = giorni;} 
             
@@ -255,7 +255,7 @@
                                 giorniv = giorniv + 1;}
                     
                     
-        var risultato = giorniv;
+        var risultato = giorniv+2;
         document.getElementById("risultato").innerHTML = risultato;
 
         
